@@ -12,7 +12,6 @@ class Action extends BaseNode {
 	}
 
 	tick(tick) {
-
 		tick.entity.state = this.name;
 		return states.SUCCESS;
 	}

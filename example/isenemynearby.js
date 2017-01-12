@@ -1,7 +1,7 @@
 "use strict";
 
-const BaseNode = require('./basenode'),
-	states = require('../states')
+const BaseNode = require('../src/node/basenode'),
+	states = require('../src/states')
 ;
 
 class IsEnemyNearby extends BaseNode {
