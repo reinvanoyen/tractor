@@ -9,5 +9,6 @@ module.exports = {
 	Wait: require('./node/wait'),
 	Action: require('./node/action'),
 	Log: require('./node/log'),
-	Blackboard: require('./blackboard')
+	Blackboard: require('./blackboard'),
+	states: require('./states')
 };
